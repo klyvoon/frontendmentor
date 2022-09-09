@@ -1,44 +1,93 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+// MAJ LE SCSS de la fonction calcul
 
+body {
+    align-items: center;
+    background-color: #F2EAE2;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
 .wrapper {
     background-color: red;
+    display: flex;
     height: 450px; // 800/450
     margin: auto;
     width: 650px; // 1400/600
-    display: flex;
-
-
     .section1 {
         background-color: purple;
         width: 50%;  
         img {
             height: 100%;
-            width: 100%;
             object-fit: cover;
+            width: 100%;
         }
     }
-    
     .section2 {
-    
-        background-color: green;
-        padding-left: calc((31.5/325)*50%);
+        background-color: white;
         width: 50%;
         .section2-title {
-
-            font-family: 'Montserrat';
+            color: #6C7289;
+            font-family: 'Montserrat', sans-serif;
             font-size: 12px;
             font-style: normal;
+            font-weight: 500;
             letter-spacing: 5px;
             line-height: 15px;
+            padding-left: calc((31.5/325)*100%); 
+            padding-right: calc((31.5/325)*100%); 
             position: relative;
             margin: 0;
             top: ((32/450)*100%);
-            
+        }
+        .section2-title-bold {
+            color: #1C232B;
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 32px;
+            padding-left: calc((32/325)*100%);
+            padding-right: calc((32/325)*100%);
+            position: relative;
+            top: 20px;
+        }
+        .section2-p {
+            color: #6C7289;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 14px;
+            font-style: normal;
+            line-height: 23px;
+            padding-left: calc((31.5/325)*100%);
+            padding-right: calc((31.5/325)*100%);
+            position: relative;
+            top: 24px;
+        }
+        .section2-wrapper-price {
+            display: flex;
+            padding-left: calc((32/325)*100%);
+            padding-right: calc((32/325)*100%);
+            position: relative;
+            top: 29px;
+            .section2-wrapper-price-1{
+                color: #3D8168;
+                font-family: 'Fraunces', serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 32px;
+                margin: 0;
+            }
+            .section2-wrapper-price-2{
+                color: #6C7289;
+                font-family: 'Montserrat', serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 23px;
+                margin: 0;
+                margin-left: 19px;
+            }
         }
     }
 }
