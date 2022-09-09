@@ -24,5 +24,16 @@ body {
 }
 .wrapper .section2 {
   background-color: green;
+  padding-left: 4.8461538462%;
   width: 50%;
+}
+.wrapper .section2 .section2-title {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: 5px;
+  line-height: 15px;
+  position: relative;
+  margin: 0;
+  top: 7.1111111111%;
 }/*# sourceMappingURL=style.css.map */

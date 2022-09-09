@@ -16,7 +16,6 @@ body {
     .section1 {
         background-color: purple;
         width: 50%;  
-
         img {
             height: 100%;
             width: 100%;
@@ -25,8 +24,22 @@ body {
     }
     
     .section2 {
+    
         background-color: green;
+        padding-left: calc((31.5/325)*50%);
         width: 50%;
+        .section2-title {
+
+            font-family: 'Montserrat';
+            font-size: 12px;
+            font-style: normal;
+            letter-spacing: 5px;
+            line-height: 15px;
+            position: relative;
+            margin: 0;
+            top: ((32/450)*100%);
+            
+        }
     }
 }
 
