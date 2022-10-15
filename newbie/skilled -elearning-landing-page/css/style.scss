@@ -1,0 +1,35 @@
+@import "header";
+@import "main";
+@import "colors";
+@import "footer";
+@import "grid";
+
+* {
+    box-sizing: border-box;   
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+body {
+    /*background-color: $White;*/
+    margin: 0;
+    overflow-x: hidden;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(131,136,154,1) 400%);
+    /* overflow: hidden; */
+   
+}
+.wrapper{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(131,136,154,1) 400%);
+    background-color: $White;
+    height: 100%;
+    margin-left: (164 / 1440) * 100%;
+    margin-right: (164 / 1440) * 100%;
+    @media (min-width: 750px) and (max-width: 1130px){
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    @media (max-width: 750px){
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

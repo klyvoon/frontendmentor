@@ -1,0 +1,39 @@
+@import "colors";
+
+header {
+    align-items: center;
+    background: $White;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    .header__left-brand-name{
+        font-family: 'Plus Jakarta Sans's, sans-serif;
+        font-weight: 800;
+        font-size: 36px;
+        height: 45px;
+        width: 114px;
+    }
+    .header__right-button-wrapper {
+        z-index: 3;
+        .header__right-button{
+            background-color: $YankeesBlue;
+            border: none;
+            border-radius: 28px;
+            color: $White;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            font-style: normal;
+            height: 56px;
+            line-height: 28px;
+            padding: 0;
+            width: 167px;
+        }
+
+
+        .header__right-button:hover {
+            background: $DarkBlueGray;
+            cursor: pointer;
+        }
+    }
+}

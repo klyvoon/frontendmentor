@@ -1,0 +1,132 @@
+/* https://www.color-name.com/ */
+:root {
+  --A: 100px;
+}
+
+@media (max-width: 750px) {
+  .main {
+    text-align: -webkit-center;
+  }
+}
+.main {
+  white-space: nowrap;
+  height: 100vh;
+}
+.main .main__text-block {
+  height: 359px;
+  width: 457px;
+  position: relative;
+  top: 178px;
+  vertical-align: top;
+  margin-top: -35px;
+}
+@media (max-width: 750px) {
+  .main .main__text-block {
+    display: block;
+    margin-top: -165px;
+  }
+}
+.main .main__text-block .text-block__h1 {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 56px;
+  line-height: 71px;
+  color: #13183F;
+  margin-bottom: 29px;
+}
+@media (min-width: 750px) and (max-width: 1130px) {
+  .main .main__text-block .text-block__h1 {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+.main .main__text-block .text-block__p {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #83869A;
+  margin-bottom: 39px;
+}
+@media (min-width: 750px) and (max-width: 1130px) {
+  .main .main__text-block .text-block__p {
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+.main .main__text-block .text-block__button {
+  width: 167px;
+  height: 63px;
+  color: #FFFFFF;
+  background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);
+  border: none;
+  border-radius: 31.5px;
+}
+@media (min-width: 750px) and (max-width: 1130px) {
+  .main .main__text-block .text-block__button {
+    ont-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+  }
+}
+.main .main__text-block .text-block__button:hover {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+  cursor: pointer;
+}
+.main .main__image {
+  display: inline-block;
+}
+@media (max-width: 750px) {
+  .main .main__image {
+    display: block;
+  }
+}
+@media (max-width: 749px) {
+  .main .main__image img {
+    position: relative;
+    top: 167px;
+    margin-top: 27px;
+  }
+}
+@media (min-width: 1130px) {
+  .main .main__image img {
+    background-color: transparent;
+    top: -18%;
+    width: 100%;
+    height: 100%;
+    right: -38%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    border: 1px red;
+    position: absolute;
+  }
+}
+@media (min-width: 750px) and (max-width: 1130px) {
+  .main .main__image img {
+    left: 45%;
+    top: -14%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media (max-width: 749px) {
+  .main .main__image img {
+    position: relative;
+    top: 153px;
+    display: unset;
+  }
+}/*# sourceMappingURL=main.css.map */

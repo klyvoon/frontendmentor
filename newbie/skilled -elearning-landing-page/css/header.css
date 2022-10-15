@@ -1,0 +1,36 @@
+/* https://www.color-name.com/ */
+header {
+  align-items: center;
+  background: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+header .header__left-brand-name {
+  font-family: "Plus Jakarta Sans" s, sans-serif;
+  font-weight: 800;
+  font-size: 36px;
+  height: 45px;
+  width: 114px;
+}
+header .header__right-button-wrapper {
+  z-index: 3;
+}
+header .header__right-button-wrapper .header__right-button {
+  background-color: #13183F;
+  border: none;
+  border-radius: 28px;
+  color: #FFFFFF;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
+  height: 56px;
+  line-height: 28px;
+  padding: 0;
+  width: 167px;
+}
+header .header__right-button-wrapper .header__right-button:hover {
+  background: #666CA3;
+  cursor: pointer;
+}/*# sourceMappingURL=header.css.map */
