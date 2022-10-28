@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" scontent="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+
+    <title>Interactive-rating-component</title>
+</head>
+<body>
+
+    <main id="ok" class="main">
+        <div class="wrapper">
+            <div class="wrapper__star-img">
+                <img src="/assets/icon-star.svg">
+            </div>
+            <h1 class="wrapper__title">How did we do?</h1>
+            <p class="wrapper__text">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            <ul>
+                <li><button onclick="number(this.id)" id="button-1">1</button></li>
+                <li><button onclick="number(this.id)" id="button-2">2</button></li>
+                <li><button onclick="number(this.id)" id="button-3">3</button></li>
+                <li><button onclick="number(this.id)" id="button-4">4</button></li>
+                <li><button onclick="number(this.id)" id="button-5">5</button></li>
+            </ul>
+            <button id="submit" class="wrapper__submit-button">SUBMIT</button>
+        </div>
+    </main>
+
+    <div class="submit-result" id="submit-result">
+        <img class="submit-result__img" src="/assets/illustration-thank-you.svg">
+        <div class="submit-result__response-wrapper">
+            <p class="submit-result__response" id="submit-result__response">You selected 4 out of 5</p>
+        </div>
+        <h1 class="submit-result__title">Thank you!</h1>
+        <div class="submit-result__text-wrapper">
+            <p class="submit-result__text" >We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

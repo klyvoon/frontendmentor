@@ -1,0 +1,192 @@
+:root {
+  --color-very-dark-blue: #131518;
+  --color-dark-blue: #262E38;
+  --color-black-gradient: #232A34;
+  --color-grey: #979797;
+  --color-black: rgb(35,42,52);
+  --color-light-grey: #969FAD;
+  --color-orange: #FC7614;
+  --color-medium-gray: #7C8798;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--color-very-dark-blue);
+}
+
+html {
+  font-size: 16px;
+  font-family: "Overpass";
+}
+
+.submit-result {
+  background-color: red;
+  display: none;
+  z-index: 9000;
+  heigh: 400px;
+  width: 300px;
+}
+.submit-result .submit-result__img {
+  margin-left: 7.5625rem;
+  margin-right: 8.0625rem;
+  margin-top: 2.8125rem;
+}
+.submit-result .submit-result__response-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22.5px;
+  background-color: var(--color-dark-blue);
+  margin-left: 6.875rem;
+  margin-right: 6.875rem;
+  width: 193px;
+  height: 32px;
+  margin-top: 2rem;
+}
+.submit-result .submit-result__response-wrapper .submit-result__response {
+  color: var(--color-orange);
+  height: 24px;
+  width: 154px;
+  text-align: center;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 400;
+  top: 50%;
+  position: relative;
+  transform: translate(0, -50%);
+  text-rendering: geometricprecision;
+}
+.submit-result .submit-result__title {
+  margin-top: 2rem;
+  margin-left: 8.4375rem;
+  margin-right: 8.375rem;
+  width: 143px;
+  height: 43px;
+  font-size: 1.75rem;
+  color: white;
+}
+.submit-result .submit-result__text-wrapper {
+  width: 340px;
+  height: 72px;
+  margin-left: 2rem;
+  margin-right: 2.5rem;
+  margin-top: 0.4375rem;
+}
+.submit-result .submit-result__text-wrapper p {
+  font-size: 0.9375rem;
+  color: var(--color-light-grey);
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.main, .submit-result {
+  /* centering the div */
+  background: var(--color-black);
+  background: radial-gradient(circle, rgb(35, 42, 52) 0%, rgb(24, 30, 39) 100%);
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 412px;
+  height: 416px;
+}
+
+.wrapper {
+  height: 100%;
+  margin-left: 2rem;
+  margin-right: 2.5rem;
+}
+.wrapper .wrapper__star-img {
+  align-items: center;
+  background-color: var(--color-dark-blue);
+  border-radius: 50%;
+  display: flex;
+  height: 48px;
+  width: 48px;
+  margin-top: 2rem;
+  text-align: center;
+}
+.wrapper .wrapper__star-img img {
+  margin: 0 auto;
+  display: block;
+}
+.wrapper .wrapper__title {
+  color: white;
+  margin-top: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+}
+.wrapper .wrapper__text {
+  margin-top: 15px;
+  color: var(--color-light-grey);
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+.wrapper .wrapper__submit-button {
+  color: white;
+  border-radius: 22.5px;
+  border-style: none;
+  margin-top: 2rem;
+  width: 341px;
+  height: 45px;
+  background-color: var(--color-orange);
+  cursor: pointer;
+  line-height: 19px;
+  letter-spacing: 2px;
+  font-family: "Overpass";
+}
+.wrapper .wrapper__submit-button:hover {
+  background-color: white;
+  color: var(--color-orange);
+}
+
+/* rating number list */
+ul {
+  display: flex;
+  margin-top: 24px;
+}
+ul li {
+  border-radius: 50%;
+  display: inline-block;
+  /* The figma file contains some irregular gap 21px and 22px */
+}
+ul li:nth-of-type(odd) {
+  margin-right: 1.3125rem;
+}
+ul li:nth-of-type(even) {
+  /*  background-color: yellow; */
+  margin-right: 1.375rem;
+}
+ul li button {
+  background-color: var(--color-dark-blue);
+  border-radius: 50%;
+  color: #979797;
+  width: 51px;
+  height: 51px;
+  border-style: none;
+  cursor: pointer;
+}
+ul li button:hover {
+  background-color: var(--color-orange);
+  color: white;
+}
+ul li button:focus {
+  background-color: var(--color-medium-gray);
+  color: white;
+}
+ul li button:active {
+  background-color: var(--color-orange);
+  color: white;
+}/*# sourceMappingURL=style.css.map */
