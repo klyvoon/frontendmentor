@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap");
+:root {
+  --main-bg__very-dark-blue: #0D192C;
+  --card_bg__very-dark-blue: #15263F;
+  --text__very-dark-blue: #2E405A;
+  --soft-blue: #8BACD9;
+  --white: #FFFFFF;
+  --cyan: #00FFF8;
+  --transparent-cyan: rgba(0, 255, 247, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-family: Outfit;
+  text-rendering: geometricPrecision;
+}
+
+body {
+  align-items: center;
+  background-color: var(--main-bg__very-dark-blue);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    transform: translateY(-110vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(-110vh);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.wrapper__card {
+  -webkit-animation: 1s fadeIn;
+          animation: 1s fadeIn;
+  background-color: var(--card_bg__very-dark-blue);
+  border-radius: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  height: 596px;
+  width: 350px;
+}
+.wrapper__card .card {
+  margin: 1.5rem 1.5rem 2rem;
+  position: relative;
+}
+.wrapper__card .card .card__wrapper {
+  border-radius: 8px;
+  position: relative;
+  height: 302px;
+  width: 302px;
+  margin-bottom: 1.5rem;
+}
+.wrapper__card .card .card__wrapper .card__image {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+}
+.wrapper__card .card .card__wrapper .card__image-overlay-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.wrapper__card .card .card__wrapper .card__image-overlay-wrapper:hover {
+  background-color: var(--transparent-cyan);
+  border-radius: 8px;
+  opacity: 1;
+}
+.wrapper__card .card .card__title {
+  color: var(--white);
+  height: 28px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+  margin-bottom: 1rem;
+}
+.wrapper__card .card .card__title:hover {
+  color: var(--cyan);
+}
+.wrapper__card .card .card__text {
+  height: 52px;
+  color: var(--soft-blue);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  margin-bottom: 1.5rem;
+}
+.wrapper__card .card .card__nft-detail {
+  height: 20px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper__card .card .card__nft-detail .nft-detail__wrapper {
+  display: flex;
+  align-items: center;
+}
+.wrapper__card .card .card__nft-detail .nft-detail__wrapper .nft-detail__coin-value {
+  color: var(--cyan);
+  margin-left: 0.405rem;
+}
+.wrapper__card .card .card__nft-detail .nft-detail__wrapper .nft-detail__remaining-time {
+  color: var(--soft-blue);
+  margin-left: 0.564375rem;
+}
+.wrapper__card .card hr {
+  background-color: var(--text__very-dark-blue);
+  height: 1px;
+  margin-bottom: 1rem;
+  border: none;
+}
+.wrapper__card .card .card__author {
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+}
+.wrapper__card .card .card__author .author__avatar {
+  border-radius: 50%;
+  height: 33px;
+  outline: 1px solid white;
+  outline-offset: -1px;
+  width: 33px;
+}
+.wrapper__card .card .card__author .author__name {
+  color: var(--soft-blue);
+  margin-left: 1rem;
+}
+.wrapper__card .card .card__author .author__name span {
+  color: var(--white);
+  margin-left: 0.3125rem;
+}
+.wrapper__card .card .card__author .author__name span:hover {
+  color: var(--cyan);
+}/*# sourceMappingURL=style.css.map */
