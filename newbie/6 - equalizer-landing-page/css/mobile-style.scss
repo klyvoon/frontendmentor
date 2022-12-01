@@ -1,6 +1,6 @@
 /* Mobile design */
 @media screen
-    and (min-width:374px) and (max-width:767px) {   
+    and (min-width:375px) and (max-width:767px) {   
     .background-wrapper {
         position: absolute;
         z-index: -100;
@@ -173,6 +173,7 @@
         margin-left: 1.5rem;
         margin-right: 1.5rem;
         position: relative;
+        top: 24.375rem;
         .footer__logo {
             margin-bottom: 2rem;
         }

@@ -1,4 +1,4 @@
-// All this code is due to lack of structure, in particulary, the footer element
+/* // All this code is due to lack of structure, in particulary, the footer element
 
 const scrollbarWidth = window.innerWidth - document.querySelector('body').clientWidth;
 let widthLargeLoad = 537 + scrollbarWidth; 
@@ -109,3 +109,4 @@ window.addEventListener("resize", function() {
         }
     }
 });
+ */
