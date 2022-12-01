@@ -1,0 +1,43 @@
+@import "mobile-style.css";
+@import "tablet-style.css";
+@import "desktop-style.css";
+:root {
+  --turquoise-blue: #66E2DC;
+  --bittersweet: #FA7453;
+  --rajah: #FFB964;
+  --hint-of-red: #FCFAF9;
+  --midnight-express: #191826;
+  --width-of-vw: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-rendering: geometricPrecision;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: "IBM Plex sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+.card__android-download:hover {
+  background-color: var(--rajah);
+}
+
+.card__ios-download:hover {
+  background-color: var(--turquoise-blue) !important;
+}
+
+.footer__icon > svg:hover {
+  fill: var(--bittersweet);
+}/*# sourceMappingURL=style.css.map */

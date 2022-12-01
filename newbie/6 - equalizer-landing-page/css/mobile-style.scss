@@ -1,0 +1,196 @@
+/* Mobile design */
+@media only screen and (min-width:375px) and (max-width:767px) {   
+    .background-wrapper {
+        position: absolute;
+        z-index: -100;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    .background-pattern1 {
+        display: none;
+    }
+    .main__wrapper {
+        margin: 2.5rem 1.5rem 10.375rem;
+        .main__logo {
+            margin-bottom: 4rem;
+        }
+        .main__bold-title {
+            margin-bottom: 1.25rem;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 2.5rem;
+            line-height: 3rem;;
+            letter-spacing: -0.454545px;
+            color: var(--midnight-express);
+            overflow: hidden;
+        }
+        .main__text {
+            font-family: 'IBM Plex Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.625rem;
+            color: var(--midnight-express);
+        }
+    }
+    .section__wrapper {
+        background-color: var(--midnight-express);
+        border-radius: 12px;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 600px;
+        .section__pattern {
+        }
+        .section__phone-img {
+            margin-left: 5.041875rem;
+            margin-right: 5.335rem;
+            margin-top: -6.125rem;
+            display: block;
+            width: 208.97px;
+            height: 430px;
+            position: absolute;
+        }
+        .section__card {
+            background-color: var(--bittersweet);
+            border-radius: 12px;
+            padding-top: 3rem;
+            padding-left: 2.25rem;
+            padding-right: 2.3125rem;
+            padding-bottom: 3rem;
+            z-index: 1000;
+            height: auto;
+            margin-top: -5.5rem;
+            .card__title {
+                color: var(--hint-of-red);
+                font-style: normal;
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 40px;
+                margin-bottom: 0.75rem;
+            }
+            .card__text {
+                color: var(--hint-of-red);
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                margin-bottom: 2.25rem;
+            }
+            .card__price-wrapper {
+                display: flex;
+                align-items: center;
+                height: 52px;
+                margin-bottom: 2rem;
+                .card__price-amount {
+                    color: var(--hint-of-red);
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 65px;
+                    line-height: 52px;
+                }
+                .card__price-frequence {
+                    margin-left: 1rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 32px;
+                    letter-spacing: -0.2px;
+                    color: var(--hint-of-red);
+                }
+            }
+            .card__ios-download {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 2.625;
+                margin-right: 2.3125;
+                width: 296px;
+                height: 61px;
+                border-style: none;
+                margin-bottom: 1rem;
+                border-radius: 12px;
+                color: var(--hint-of-red);
+                background-color: var(--midnight-express);
+                .card__ios-download-wrapper {
+                    display: flex;
+                    align-content: center;
+                    justify-content: center;
+                    svg {
+                        margin-right: 7.92px;
+                        align-self: center;
+                    }
+                    p {
+                        height: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 1.125rem;
+                        line-height: 32px;
+                        text-align: center;
+                        letter-spacing: -0.18px;
+                        color: #FCFAF9; 
+                    }
+                }
+            }
+            .card__android-download {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 12px;
+                margin-left: 2.625;
+                margin-right: 2.3125;
+                width: 296px;
+                height: 61px;
+                border-style: none;
+                color: var(--midnight-express);
+                .card__android-download-wrapper{
+                        display: flex;
+                        align-content: center;
+                        justify-content: center;
+                    svg {
+                        margin-right: 7.8px;
+                        align-self: center;
+                    }
+                    p {
+                        height: 32px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 1.125rem;
+                        line-height: 32px;
+                        text-align: center;
+                        letter-spacing: -0.18px;
+                        color: var(--midnight-express); 
+                    }
+                }
+            }
+        }
+    }
+    .footer__wrapper {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+        position: relative;
+        .footer__logo {
+            margin-bottom: 2rem;
+        }
+        .footer__text {
+            margin-bottom: 4rem;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: var(--midnight-express);
+        }
+        .footer__icon {
+            padding-bottom: 5rem;
+            .icon__facebook {
+                margin-right: 20px;
+            }
+            .icon__instagram {
+                margin-right: 20px;
+            }
+        }
+    }
+}
