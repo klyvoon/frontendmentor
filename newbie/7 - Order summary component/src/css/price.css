@@ -1,0 +1,90 @@
+.card__price {
+  display: flex;
+  align-items: center;
+  border-radius: 11px;
+  background-color: var(--color-zircon);
+  margin: 1.5rem 1.5rem 0rem;
+  display: flex;
+  width: 279px;
+  height: 81px;
+}
+@media (min-width: 1000px) {
+  .card__price {
+    margin: 1.5rem 3rem 0rem;
+    width: 354px;
+    height: 98px;
+  }
+}
+.card__price .card__icon-music {
+  margin-left: 1rem;
+  width: 48px;
+  height: 48px;
+}
+.card__price .card__plan-wrapper {
+  margin-left: 1.25rem;
+}
+.card__price .card__plan-wrapper h1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--color-cloudburst);
+}
+@media (min-width: 1000px) {
+  .card__price .card__plan-wrapper h1 {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+.card__price .card__plan-wrapper p {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: var(--color-shadowblue);
+}
+@media (min-width: 1000px) {
+  .card__price .card__plan-wrapper p {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+@media (min-width: 1000px) {
+  .card__price .card__plan-wrapper {
+    margin-left: 1.5rem;
+  }
+}
+.card__price .plan__change {
+  margin-left: 3.125rem;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 17px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: var(--color-persianblue);
+}
+.card__price .plan__change:hover {
+  color: #766CF1;
+  transition: unset;
+  text-decoration: none;
+}
+@media (min-width: 1000px) {
+  .card__price .plan__change {
+    margin-left: 5.875rem;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}/*# sourceMappingURL=price.css.map */

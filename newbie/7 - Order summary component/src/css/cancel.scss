@@ -1,0 +1,20 @@
+.card__cancel-order {
+    &:hover{
+        color: #1F2E55;
+        transition: unset;
+        text-decoration: none;
+    }
+    display: inline-block;
+    margin: 1.5rem 7.1875rem 0rem;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--color-shadowblue);
+    text-decoration: none;
+    @media (min-width: 1000px) {
+        width : 354px;
+        margin-left: 11rem;
+    }
+}

@@ -10,6 +10,10 @@
   --width-of-vw: 100px;
 }
 
+*::before, *::after, * {
+  transition: all ease 3.2s;
+}
+
 * {
   margin: 0;
   padding: 0;

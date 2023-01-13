@@ -1,0 +1,45 @@
+.card__order {
+  background-color: white;
+  margin: 1.8125rem 2rem 1.5rem;
+}
+@media (min-width: 1000px) {
+  .card__order {
+    margin: 2.6rem 3rem 1.5rem;
+  }
+}
+.card__order .order__title {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  color: var(--color-cloudburst);
+}
+@media (min-width: 1000px) {
+  .card__order .order__title {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+  }
+}
+.card__order .order__text {
+  margin-top: 1rem;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--color-shadowblue);
+}
+@media (min-width: 1000px) {
+  .card__order .order__text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}/*# sourceMappingURL=order.css.map */
