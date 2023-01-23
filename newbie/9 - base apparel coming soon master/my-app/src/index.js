@@ -12,8 +12,9 @@ root.render(
     <React.StrictMode>
       <GlobalStyle />
       <Header>
-        <Header.Logo width="100px" height="20px" viewBox="0px 0px 100px 21px"/>
-
+        <Header.Logo width="100px" height="20px" viewBox="0px 0px 100px 21px">
+          <use xlinkHref={`${logo}#a`} />
+        <Header.Logo />
       </Header>
     </React.StrictMode>
   </>
