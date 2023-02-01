@@ -5,15 +5,12 @@ const Logo = styled.svg`
     margin: 31px 0px 0px 32px;
     background-image: url('${logo}');
     background-repeat: no-repeat;
-    background-color: red;
-   
     width: 100px;
     height: 21px;
-  /*  width: ${props => props.width};
-   height: ${props => props.height};
-   viewBox: ${props => props.viewBox};
- */
-
+    @media (min-width: 1000px) {
+        margin: unset;
+    
+        margin-top:31px;
 `;
 
 export default Logo;
